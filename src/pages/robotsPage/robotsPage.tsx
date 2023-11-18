@@ -1,8 +1,8 @@
-import RobotCard from "../../components/RobotCard/RobotCard";
-import robotItem from "../../data/robot";
+import RobotsList from "../../components/RobotsList/RobotsList";
+import { robotItems } from "../../data/robot";
 
 const RobotsPage = () => {
-  return <RobotCard Robot={robotItem} />;
+  return <RobotsList Robots={robotItems} />;
 };
 
 export default RobotsPage;
