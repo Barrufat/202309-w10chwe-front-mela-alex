@@ -4,7 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 
 import RobotCard from "./RobotCard";
 import mainTheme from "../../styles/mainTheme";
-import robotItem from "../../data/robot";
+import { robotItem } from "../../data/robot";
 
 describe("Given a RobotCard", () => {
   describe("When it recieves RoboBunny", () => {
