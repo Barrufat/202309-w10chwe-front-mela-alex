@@ -3,6 +3,7 @@ import { ThemeProvider } from "styled-components";
 import "@testing-library/jest-dom";
 import App from "./App";
 import mainTheme from "../../styles/mainTheme";
+import { BrowserRouter } from "react-router-dom";
 
 describe("Given an App component", () => {
   describe("When it's rendered", () => {
@@ -10,9 +11,11 @@ describe("Given an App component", () => {
       const expectedHeadingText = "Robots App";
 
       render(
-        <ThemeProvider theme={mainTheme}>
-          <App />
-        </ThemeProvider>,
+        <BrowserRouter>
+          <ThemeProvider theme={mainTheme}>
+            <App />
+          </ThemeProvider>
+        </BrowserRouter>,
       );
 
       const headingElement = screen.getByText(expectedHeadingText);

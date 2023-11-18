@@ -53,6 +53,12 @@ button {
   cursor: pointer;
 }
 
+.main-container{
+  width: 100%;
+  height: 100%;
+  font-family: ${({ theme }) => theme.typography.mainFontFamily}
+}
+
 `;
 
 export default GlobalStyle;
