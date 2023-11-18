@@ -16,7 +16,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #ffffff;
+  background-color: ${({ theme }) => theme.colors.back}
 }
 
 p{
@@ -47,8 +47,8 @@ input {
 h1,
 h2 {
   margin: 0;
-  color: #ffffff;
-  font-family: freshMarker;
+  color: ${({ theme }) => theme.colors.mainText};
+  font-family: ${({ theme }) => theme.typography.mainFontFamily};
 }
 
 button {
