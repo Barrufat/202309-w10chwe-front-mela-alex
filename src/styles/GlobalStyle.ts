@@ -9,9 +9,7 @@ const GlobalStyle = createGlobalStyle`
 }
 
 html {
-  font-family: ${({ theme }) =>
-    theme.typography.mainFontFamily}, "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: ${({ theme }) => theme.typography.mainFontFamily}
 }
 
 body {
