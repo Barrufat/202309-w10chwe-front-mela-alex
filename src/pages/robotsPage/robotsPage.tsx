@@ -1,5 +1,8 @@
+import RobotCard from "../../components/RobotCard/RobotCard";
+import robotItem from "../../data/robot";
+
 const RobotsPage = () => {
-  return <h1>Robots Page</h1>;
+  return <RobotCard Robot={robotItem} />;
 };
 
 export default RobotsPage;
