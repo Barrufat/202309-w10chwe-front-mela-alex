@@ -11,7 +11,7 @@ const mainTheme: DefaultTheme = {
     black: "#000",
   },
   typography: {
-    mainFontFamily: "Lucida Sans",
+    mainFontFamily: "`Lucida Sans Regular`, sans-serif",
     mainSize: "3rem",
     titleSize: "2.2rem",
     secondaryTitleSize: "1.5rem",
