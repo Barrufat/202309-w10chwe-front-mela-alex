@@ -2,10 +2,20 @@ import { DefaultTheme } from "styled-components";
 
 const mainTheme: DefaultTheme = {
   colors: {
-    yellow: "#060",
+    back: "#D3E1EB",
+    secondaryBack: "#EBEBD3",
+    mainText: "#557A96",
+    backCard: "#EBD4D3",
+    secondaryText: "#737362",
+    offWhite: "#fff",
+    black: "#000",
   },
   typography: {
-    mainFontFamily: "Lucida Sans",
+    mainFontFamily: "`Lucida Sans Regular`, sans-serif",
+    mainSize: "3rem",
+    titleSize: "2.2rem",
+    secondaryTitleSize: "1.5rem",
+    regularSize: "1,125rem",
   },
 };
 

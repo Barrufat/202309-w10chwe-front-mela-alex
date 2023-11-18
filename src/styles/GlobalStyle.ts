@@ -9,14 +9,12 @@ const GlobalStyle = createGlobalStyle`
 }
 
 html {
-  font-family: ${({ theme }) =>
-    theme.typography.mainFontFamily}, "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: ${({ theme }) => theme.typography.mainFontFamily}
 }
 
 body {
   margin: 0;
-  background-color: #ffffff;
+  background-color: ${({ theme }) => theme.colors.back}
 }
 
 p{
@@ -47,8 +45,8 @@ input {
 h1,
 h2 {
   margin: 0;
-  color: #ffffff;
-  font-family: freshMarker;
+  color: ${({ theme }) => theme.colors.mainText};
+  font-family: ${({ theme }) => theme.typography.mainFontFamily};
 }
 
 button {
