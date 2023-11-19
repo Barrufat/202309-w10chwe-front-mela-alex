@@ -1,4 +1,4 @@
-import RobotStructure from "../../types";
+import RobotStructure from "../../store/types";
 import RobotCardStyled from "./RobotCardStyled";
 
 interface RobotCardProps {

@@ -1,4 +1,4 @@
-import RobotStructure from "../../types";
+import RobotStructure from "../../store/types.js";
 import RobotCard from "../RobotCard/RobotCard.js";
 import RobotsListStyled from "./RobotsListStyled.js";
 
