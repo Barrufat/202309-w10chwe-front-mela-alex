@@ -4,7 +4,6 @@ const RobotsFormStyled = styled.form`
   display: flex;
   flex-direction: column;
   gap: 10px;
-  position: relative;
   color: white;
   margin-bottom: 30px;
   background-color: ${({ theme }) => theme.colors.backCard};
