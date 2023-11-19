@@ -1,7 +1,6 @@
 import { screen, render } from "@testing-library/react";
 import { ThemeProvider } from "styled-components";
 import { BrowserRouter } from "react-router-dom";
-
 import RobotCard from "./RobotCard";
 import mainTheme from "../../styles/mainTheme";
 import { robotItem } from "../../data/robot";

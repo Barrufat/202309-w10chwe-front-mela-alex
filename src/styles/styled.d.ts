@@ -13,6 +13,7 @@ declare module "styled-components" {
     };
     typography: {
       mainFontFamily: string;
+      regularFontFamily: string;
       mainSize: string;
       titleSize: string;
       secondaryTitleSize: string;
