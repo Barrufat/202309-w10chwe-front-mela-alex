@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 
-import RobotsPage from "../../pages/robotsPage/robotsPage";
+import RobotsPage from "../../pages/RobotsPage/RobotsPage";
 import { BrowserRouter } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import mainTheme from "../../styles/mainTheme";

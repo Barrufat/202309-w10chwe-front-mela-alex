@@ -7,6 +7,7 @@ const NavigationStyled = styled.nav`
   justify-content: flex-end;
   width: 100%;
   height: 100px;
+  font-size: 16px;
   background: ${({ theme }) => theme.colors.secondaryBack};
   color: ${({ theme }) => theme.colors.offWhite};
 
