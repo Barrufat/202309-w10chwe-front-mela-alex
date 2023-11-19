@@ -1,3 +1,7 @@
+import "@fontsource/karla";
+import "@fontsource/karla/400.css";
+import "@fontsource/playfair-display";
+import "@fontsource/playfair-display/400.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./components/App/App";
