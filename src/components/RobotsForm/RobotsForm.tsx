@@ -1,6 +1,7 @@
 import { useState } from "react";
 import RobotStructure from "../../store/types";
 import RobotsFormStyled from "./RobotsFormStyled";
+import Button from "../Button/Button";
 
 interface RobotsFormProps {
   submitAction: (newRobot: RobotStructure) => void;
@@ -75,6 +76,7 @@ const RobotsForm = ({ submitAction }: RobotsFormProps) => {
         value={newRobot.image}
         onChange={updateNewRobot}
       />
+      <Button type={"button"} text={"Create new Robot"} />
     </RobotsFormStyled>
   );
 };
