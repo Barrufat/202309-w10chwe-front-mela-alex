@@ -1,4 +1,4 @@
-import RobotStructure from "../types";
+import RobotStructure from "../store/types";
 
 export const robotItem: RobotStructure = {
   _id: 1,
