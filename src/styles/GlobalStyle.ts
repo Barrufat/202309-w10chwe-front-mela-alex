@@ -31,6 +31,7 @@ li {
 a {
   text-decoration: none;
   color: inherit;
+    font-size: 20px;
 }
 
 button,
