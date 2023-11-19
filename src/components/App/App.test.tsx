@@ -1,6 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import { ThemeProvider } from "styled-components";
 import "@testing-library/jest-dom";
+
 import App from "./App";
 import mainTheme from "../../styles/mainTheme";
 import { BrowserRouter } from "react-router-dom";
